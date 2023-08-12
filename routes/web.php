@@ -16,7 +16,7 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
-    return view('welcome');
+    return view('home');
 });
            // endpoint  Controller                  método do controller
 Route::get('/product', [ProductController::Class, 'index'])->name('product.index');
